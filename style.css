@@ -1,0 +1,42 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+h1{
+  margin: 10px;
+}
+
+chessGrid {
+  display:grid;
+  grid-template-columns: 1fr;
+}
+
+li {
+  list-style: none;
+  display: grid;
+  place-items: center;
+  font-size: 0px;
+}
+
+.box {
+  margin: 0.5px;
+  width: 75px;
+  height: 75px;
+}
+
+.boardDiv {
+  display: flex;
+}
+
+.allimages {
+  width: 50px;
+  position: relative;
+  bottom: 5px;
+  transform: scale(1.5);
+}
